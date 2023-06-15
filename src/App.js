@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Header from './components/Header';
-import Project from './components/Container';
+import Container from './components/Container';
 import Footer from './components/Footer';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         currentlySelected={currentlySelected}
         setCurrentlySelected={setCurrentlySelected}
       />
-      <Project currentlySelected={currentlySelected} />
+      <Container currentlySelected={currentlySelected} />
       <Footer />
     </>
   );
